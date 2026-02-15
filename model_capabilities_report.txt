@@ -1,0 +1,25 @@
+OLLAMA MODEL CAPABILITY REPORT
+Generated on 2026-01-28 20:28:26
+
+MODEL NAME                               | SIZE       | HEURISTIC T  | HEURISTIC V  | LIVE TOOL PROBE
+---------------------------------------------------------------------------------------------------------
+qwen3-coder:30b                          | 17.3 GB    | Yes          | No           | SUCCESS [OK]
+qwen3-vl:4b                              | 3.1 GB     | Yes          | Yes          | FAILED [Text Only]
+qwen3:4b                                 | 2.3 GB     | Yes          | No           | FAILED [Text Only]
+gpt-oss:20b                              | 12.8 GB    | No           | No           | Untested
+gemma3:4b                                | 3.1 GB     | Yes          | No           | ERROR [!] (registry.ollama.ai/library/gem...)
+deepseek-r1:7b                           | 4.4 GB     | Yes          | No           | ERROR [!] (registry.ollama.ai/library/dee...)
+
+=====================================================================================
+GLOSSARY & TEST DESCRIPTIONS
+=====================================================================================
+1. HEURISTIC (TOOLS/VISION):
+   - Static architecture-based detection (e.g., Qwen 2.5, Llama 3.1).
+   - Indicates if the model family is DESIGNED to support native tool calling.
+
+2. LIVE TOOL PROBE:
+   - Functional test run during this report generation.
+   - SUCCESS [OK]: The model issued a valid native tool_call via the Ollama API.
+   - FAILED [Text]: The model ignored the tools and responded in plain text.
+   - Untested: Probes are only run on models with HEURISTIC TOOLS = Yes.
+=====================================================================================

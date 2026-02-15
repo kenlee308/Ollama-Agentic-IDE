@@ -1,8 +1,10 @@
 __pycache__/
 *.pyc
 app_state.json
-backup/
-debug_dump.txt
-model_capabilities_report.txt
+*.bak
 *.exe
-dist/
+*.zip
+backup/
+.env
+.env.*
+*.log

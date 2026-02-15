@@ -1,0 +1,17 @@
+# Ollama Agentic IDE
+**Type:** Python GUI Application
+**Description:**
+An ultra-minimal, standalone Python IDE with integrated local AI capabilities. It uses Ollama to provide an "agentic" coding experience where the AI can natively create, text, and refactor files.
+
+**Key Features:**
+- **Integrated Tester:** A dashboard to verify model capabilities and compliance.
+- **Agentic Chat:** AI can perform file operations (create, delete, list) via tool calling.
+- **RAG Support:** Attach files to chat for context.
+- **No Electron:** Built with pure Python `tkinter` for a lightweight footprint.
+
+**How to Use:**
+1.  **Prerequisites:** Install Python 3.8+ and Ollama.
+2.  **Dependencies:** Run `pip install ollama schedule`.
+3.  **Run IDE:** Execute `Start Ollama IDE.bat` or run `python Ollama_Agentic_IDE_v1_1.py`.
+4.  **Run Tester:** Execute `Start Integrated Tester.bat` to audit your local models.
+5.  **Chat:** Use the chat interface to ask for coding help or file manipulation.

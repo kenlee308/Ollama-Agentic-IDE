@@ -15,6 +15,7 @@ An ultra-minimal Python IDE with integrated local AI for agentic coding, using O
 
 <video src="https://youtu.be/s3aW5z9B6RA" width="80%" controls></video>
 
+https://www.youtube.com/watch?v=s3aW5z9B6RA
 
 **How to Use:**  
 1. Prerequisites: Python 3.8+, Ollama.  

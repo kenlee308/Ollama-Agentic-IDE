@@ -11,9 +11,7 @@ An ultra-minimal Python IDE with integrated local AI for agentic coding, using O
 - **RAG Support:** Attaches files for contextual assistance.  
 - **No Electron:** Pure `tkinter` for efficiency.  
 
-<video src="https://youtu.be/s3aW5z9B6RA" controls title="Ollama IDE Demo">
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s3aW5z9B6RA?si=9nEo_J7NteaedKYl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **How to Use:**  
 1. Prerequisites: Python 3.8+, Ollama.  

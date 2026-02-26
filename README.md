@@ -13,7 +13,7 @@ An ultra-minimal Python IDE with integrated local AI for agentic coding, using O
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s3aW5z9B6RA?si=9nEo_J7NteaedKYl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<video src="[https://youtu.be/s3aW5z9B6RA]" width="80%" controls></video>
+<video src="https://youtu.be/s3aW5z9B6RA" width="80%" controls></video>
 
 
 **How to Use:**  
